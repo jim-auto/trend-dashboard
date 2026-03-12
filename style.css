@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  line-height: 1.6;
+}
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #161b22 0%, #1a1f2b 100%);
+  border-bottom: 1px solid #30363d;
+  padding: 2.5rem 1rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+.header-sub {
+  color: #8b949e;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Gender accent colors */
+.accent-girls { color: #f778ba; }
+.accent-boys { color: #58a6ff; }
+.accent-highlight { color: #ffa657; }
+
+/* Nav */
+nav.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+nav.main-nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+nav.main-nav a.nav-girls {
+  background: rgba(247, 120, 186, 0.15);
+  color: #f778ba;
+  border: 1px solid rgba(247, 120, 186, 0.3);
+}
+nav.main-nav a.nav-girls:hover {
+  background: rgba(247, 120, 186, 0.25);
+  text-decoration: none;
+}
+
+nav.main-nav a.nav-boys {
+  background: rgba(88, 166, 255, 0.15);
+  color: #58a6ff;
+  border: 1px solid rgba(88, 166, 255, 0.3);
+}
+nav.main-nav a.nav-boys:hover {
+  background: rgba(88, 166, 255, 0.25);
+  text-decoration: none;
+}
+
+/* Main */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #21262d;
+}
+
+/* Keyword Cards */
+.keyword-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.keyword-card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-align: center;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.keyword-card:hover {
+  border-color: #ffa657;
+  transform: translateY(-2px);
+}
+
+.keyword-card .keyword-label {
+  font-size: 0.75rem;
+  color: #8b949e;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.keyword-card .keyword-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #ffa657;
+  margin-bottom: 0.4rem;
+}
+
+.keyword-card .keyword-desc {
+  font-size: 0.8rem;
+  color: #8b949e;
+}
+
+/* Pickup Grid */
+.pickup-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+/* Trend Card */
+.trend-card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 1.25rem;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.trend-card:hover {
+  border-color: #484f58;
+  transform: translateY(-2px);
+}
+
+.trend-card .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.trend-card .rank-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.rank-1 { background: #e3b341; color: #0d1117; }
+.rank-2 { background: #8b949e; color: #0d1117; }
+.rank-3 { background: #a0652f; color: #fff; }
+.rank-default { background: #21262d; color: #8b949e; }
+
+.trend-card .category-badge {
+  font-size: 0.7rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 2rem;
+  background: #21262d;
+  color: #8b949e;
+  border: 1px solid #30363d;
+}
+
+.trend-card .trend-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.trend-card .trend-desc {
+  font-size: 0.85rem;
+  color: #8b949e;
+  margin-bottom: 0.75rem;
+}
+
+.trend-card .trend-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.trend-card .stars {
+  color: #e3b341;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+.trend-card .age-tags {
+  display: flex;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+}
+
+.age-tag {
+  font-size: 0.7rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 2rem;
+  background: rgba(88, 166, 255, 0.1);
+  color: #58a6ff;
+  border: 1px solid rgba(88, 166, 255, 0.2);
+}
+
+.trend-card .keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.keyword-tag {
+  font-size: 0.7rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 2rem;
+  background: #21262d;
+  color: #c9d1d9;
+  border: 1px solid #30363d;
+}
+
+.trend-card .trend-source {
+  font-size: 0.7rem;
+  color: #484f58;
+  margin-top: 0.5rem;
+}
+
+/* Quick Links */
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.quick-link {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.85rem;
+  border: 1px solid #30363d;
+  background: #161b22;
+  color: #c9d1d9;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+.quick-link:hover {
+  border-color: #58a6ff;
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+/* Tabs */
+.tab-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tab-btn {
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.85rem;
+  border: 1px solid #30363d;
+  background: #21262d;
+  color: #c9d1d9;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.tab-btn:hover {
+  border-color: #58a6ff;
+  color: #58a6ff;
+}
+.tab-btn.active {
+  background: #58a6ff;
+  color: #0d1117;
+  border-color: #58a6ff;
+}
+
+/* Girls accent tabs */
+.girls-theme .tab-btn.active {
+  background: #f778ba;
+  border-color: #f778ba;
+}
+.girls-theme .tab-btn:hover {
+  border-color: #f778ba;
+  color: #f778ba;
+}
+.girls-theme .trend-name {
+  color: #f778ba;
+}
+
+/* Boys accent tabs */
+.boys-theme .tab-btn.active {
+  background: #58a6ff;
+  border-color: #58a6ff;
+}
+.boys-theme .trend-name {
+  color: #58a6ff;
+}
+
+/* Age filter */
+.age-filter {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.age-filter-label {
+  font-size: 0.85rem;
+  color: #8b949e;
+  margin-right: 0.5rem;
+}
+
+.age-filter-btn {
+  padding: 0.3rem 0.8rem;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  border: 1px solid #30363d;
+  background: transparent;
+  color: #8b949e;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.age-filter-btn:hover {
+  border-color: #ffa657;
+  color: #ffa657;
+}
+.age-filter-btn.active {
+  background: rgba(255, 166, 87, 0.15);
+  border-color: #ffa657;
+  color: #ffa657;
+}
+
+/* Trend Grid */
+.trend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid #21262d;
+  color: #8b949e;
+  font-size: 0.8rem;
+}
+
+footer .sources {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #484f58;
+}
+
+/* Back link */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  color: #8b949e;
+}
+.back-link:hover {
+  color: #e6edf3;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+  .keyword-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .pickup-grid {
+    grid-template-columns: 1fr;
+  }
+  .trend-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 1.5rem 1rem;
+  }
+  header h1 {
+    font-size: 1.3rem;
+  }
+  nav.main-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .keyword-grid {
+    grid-template-columns: 1fr;
+  }
+}

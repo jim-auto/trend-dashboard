@@ -1,0 +1,27 @@
+{
+  "category": "idol",
+  "categoryLabel": "推し活・アイドル",
+  "gender": "girls",
+  "lastUpdated": "2026-03-12",
+  "source": "SHIBUYA109 lab. / WE LABO",
+  "items": [
+    {
+      "rank": 1,
+      "name": "界隈消費（界隈別推し活）",
+      "description": "「量産型」「地雷系」「韓国系」など界隈ごとに異なる消費スタイルが確立。自分の所属する界隈に合わせた推し活グッズ・ファッションが拡大。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 5,
+      "keywords": ["界隈", "量産型", "地雷系", "推し活"],
+      "source": "SHIBUYA109 lab."
+    },
+    {
+      "rank": 2,
+      "name": "家族・カップル系インフルエンサー",
+      "description": "SHIBUYA109 lab.の「ヒト」部門では親密さが共通特徴。家族やカップルの日常を発信するインフルエンサーへの支持が拡大。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 4,
+      "keywords": ["インフルエンサー", "家族", "カップル", "日常系"],
+      "source": "SHIBUYA109 lab."
+    }
+  ]
+}

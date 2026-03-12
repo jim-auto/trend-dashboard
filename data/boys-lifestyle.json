@@ -1,0 +1,36 @@
+{
+  "category": "lifestyle",
+  "categoryLabel": "ライフスタイル",
+  "gender": "boys",
+  "lastUpdated": "2026-03-12",
+  "source": "SHIBUYA109 lab. / Business Insider",
+  "items": [
+    {
+      "rank": 1,
+      "name": "パーソナルジム / フィットネス",
+      "description": "パーソナルジムの低価格化で20代男子の利用が急増。ボディメイクは自己投資として定着。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 5,
+      "keywords": ["パーソナルジム", "筋トレ", "ボディメイク"],
+      "source": "SHIBUYA109 lab."
+    },
+    {
+      "rank": 2,
+      "name": "サウナ（継続人気）",
+      "description": "「ととのう」ブームは継続中。サウナ施設の新規オープンが相次ぎ、サウナ×ワーケーションなど新しい楽しみ方も。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 4,
+      "keywords": ["サウナ", "ととのう", "リラックス"],
+      "source": "SHIBUYA109 lab."
+    },
+    {
+      "rank": 3,
+      "name": "AI / プログラミング副業",
+      "description": "ChatGPTやClaude等のAIツールを活用した副業が20代男子で増加。AIスキルが新たな「モテスキル」にも。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 4,
+      "keywords": ["AI", "プログラミング", "副業", "スキルアップ"],
+      "source": "Business Insider"
+    }
+  ]
+}

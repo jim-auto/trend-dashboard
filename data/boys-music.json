@@ -1,0 +1,36 @@
+{
+  "category": "music",
+  "categoryLabel": "音楽",
+  "gender": "boys",
+  "lastUpdated": "2026-03-12",
+  "source": "WE LABO / CanCam",
+  "items": [
+    {
+      "rank": 1,
+      "name": "米津玄師「IRIS OUT」",
+      "description": "男女問わず圧倒的人気。チェンソーマン レゼ篇の主題歌として社会現象化。",
+      "ageGroup": ["10代", "20代前半", "20代後半"],
+      "popularity": 5,
+      "keywords": ["米津玄師", "チェンソーマン"],
+      "source": "CanCam"
+    },
+    {
+      "rank": 2,
+      "name": "ヒップホップ / ラップシーン",
+      "description": "日本のヒップホップシーンが活況。フリースタイルバトル番組やSNS発のラッパーが10代〜20代男子に人気。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 4,
+      "keywords": ["ヒップホップ", "ラップ", "フリースタイル"],
+      "source": "WE LABO"
+    },
+    {
+      "rank": 3,
+      "name": "アニメ・ゲーム系サウンドトラック",
+      "description": "アニメやゲームのOST・主題歌がストリーミングチャートを席巻。推し作品の音楽を日常的に聴くスタイルが定着。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 4,
+      "keywords": ["アニソン", "ゲーム音楽", "OST"],
+      "source": "WE LABO"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "category": "fashion",
+  "categoryLabel": "ファッション",
+  "gender": "girls",
+  "lastUpdated": "2026-03-12",
+  "source": "SHIBUYA109 lab. / Trepo / fasme",
+  "items": [
+    {
+      "rank": 1,
+      "name": "MUSINSA（ムシンサ）",
+      "description": "韓国発のファッションプラットフォーム。2025年11月にZOZOTOWNにオープンし、2026年上半期にさらに注目を集める。韓国ブランドを手軽に購入できる点がZ世代に刺さっている。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 5,
+      "keywords": ["韓国ファッション", "Y2K", "ストリート"],
+      "source": "Trepo 2026上半期トレンド予想"
+    },
+    {
+      "rank": 2,
+      "name": "Y2K進化系ファッション",
+      "description": "2000年代のリバイバルがさらに進化。ローライズ、ミニスカート、メタリック素材にモダンなエッセンスを加えたスタイルが継続人気。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 5,
+      "keywords": ["Y2K", "2000年代", "リバイバル"],
+      "source": "SHIBUYA109 lab."
+    },
+    {
+      "rank": 3,
+      "name": "バレエコア / コケットスタイル",
+      "description": "バレエシューズ、リボン、チュールなど女性らしいディテールを取り入れたフェミニンスタイル。コケット（小悪魔的）な要素もミックス。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 4,
+      "keywords": ["バレエコア", "コケット", "フェミニン", "リボン"],
+      "source": "fasme"
+    },
+    {
+      "rank": 4,
+      "name": "クワイエットラグジュアリー",
+      "description": "ロゴを主張しないハイクオリティな素材とミニマルデザイン。上質さをさりげなく見せるスタイルが20代を中心に支持。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 4,
+      "keywords": ["ミニマル", "上質", "ノーロゴ"],
+      "source": "SHIBUYA109 lab."
+    },
+    {
+      "rank": 5,
+      "name": "レトロスポーツMIX",
+      "description": "90年代〜2000年代のスポーツブランドのヴィンテージアイテムを日常コーデに取り入れるスタイル。adidasのサンバやニューバランスが鉄板。",
+      "ageGroup": ["10代"],
+      "popularity": 4,
+      "keywords": ["レトロ", "スポーツMIX", "ヴィンテージ"],
+      "source": "fasme"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "category": "fashion",
+  "categoryLabel": "ファッション",
+  "gender": "boys",
+  "lastUpdated": "2026-03-12",
+  "source": "OTOKOMAE / FREAK'S STORE / MINORITY",
+  "items": [
+    {
+      "rank": 1,
+      "name": "Iラインシルエット（ストレートパンツ回帰）",
+      "description": "ここ数年のAライン流行が落ち着き、ストレートパンツをベースにしたスリムなIラインスタイルへの回帰が始まっている。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 5,
+      "keywords": ["Iライン", "ストレートパンツ", "スリム"],
+      "source": "OTOKOMAE 2026春メンズトレンド"
+    },
+    {
+      "rank": 2,
+      "name": "韓国ストリート / バケットハット",
+      "description": "韓国ファッション発のストリートスタイルが10代〜20代前半に定着。バケットハットはコーデの仕上げに加えるだけで今っぽくなるマストアイテム。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 5,
+      "keywords": ["韓国ストリート", "バケットハット", "カジュアル"],
+      "source": "FREAK'S STORE"
+    },
+    {
+      "rank": 3,
+      "name": "オーバーサイズカジュアル（継続）",
+      "description": "トップス・パンツ共にオーバーサイズのシルエットで動きやすさとおしゃれを両立。10代を中心に根強い人気。",
+      "ageGroup": ["10代"],
+      "popularity": 4,
+      "keywords": ["オーバーサイズ", "カジュアル", "ストリート"],
+      "source": "FREAK'S STORE"
+    },
+    {
+      "rank": 4,
+      "name": "ミニマル・モノトーンコーデ",
+      "description": "白・黒・グレーを基調にしたシンプルで洗練されたスタイル。大人っぽさを演出したい20代に支持。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 4,
+      "keywords": ["ミニマル", "モノトーン", "シンプル"],
+      "source": "MINORITY"
+    },
+    {
+      "rank": 5,
+      "name": "テック系素材・機能性ウェア",
+      "description": "撥水・速乾・ストレッチなど機能性素材を使ったウェアが日常着として浸透。アウトドアブランドのタウンユースも。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 3,
+      "keywords": ["テック素材", "機能性", "アウトドア"],
+      "source": "OTOKOMAE"
+    }
+  ]
+}

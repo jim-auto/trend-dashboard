@@ -1,0 +1,36 @@
+{
+  "category": "music",
+  "categoryLabel": "音楽・アーティスト",
+  "gender": "girls",
+  "lastUpdated": "2026-03-12",
+  "source": "Trepo / CanCam / WE LABO",
+  "items": [
+    {
+      "rank": 1,
+      "name": "米津玄師「IRIS OUT」",
+      "description": "チェンソーマン レゼ篇の主題歌。グローバルチャート史上最高の週間再生数を記録し、社会現象レベルの大ヒット。",
+      "ageGroup": ["10代", "20代前半", "20代後半"],
+      "popularity": 5,
+      "keywords": ["米津玄師", "チェンソーマン", "アニメ主題歌"],
+      "source": "CanCam"
+    },
+    {
+      "rank": 2,
+      "name": "チェンソーマン関連楽曲",
+      "description": "レゼ篇の興行収入90億円突破に伴い、主題歌・挿入歌が軒並みチャートイン。アニメ×音楽の相乗効果が最大化。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 5,
+      "keywords": ["チェンソーマン", "アニメソング", "レゼ篇"],
+      "source": "WE LABO"
+    },
+    {
+      "rank": 3,
+      "name": "K-POP 4th/5th世代",
+      "description": "ILLIT、BABYMONSTER、TWS、RIIZEなど新世代K-POPグループが続々デビュー。SNSでのファンダム活動も活発。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 4,
+      "keywords": ["K-POP", "アイドル", "ファンダム"],
+      "source": "Trepo"
+    }
+  ]
+}

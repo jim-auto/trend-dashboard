@@ -1,0 +1,36 @@
+{
+  "category": "gourmet",
+  "categoryLabel": "グルメ",
+  "gender": "boys",
+  "lastUpdated": "2026-03-12",
+  "source": "WE LABO / SHIBUYA109 lab.",
+  "items": [
+    {
+      "rank": 1,
+      "name": "麻辣湯 / 韓国料理",
+      "description": "男女問わず大人気の麻辣湯。韓国料理全般もサムギョプサル、チキン、トッポギなど幅広く浸透。",
+      "ageGroup": ["10代", "20代前半", "20代後半"],
+      "popularity": 5,
+      "keywords": ["麻辣湯", "韓国料理", "辛いもの"],
+      "source": "WE LABO"
+    },
+    {
+      "rank": 2,
+      "name": "プロテイン系フード",
+      "description": "筋トレ・ボディメイク意識の高まりで、プロテインバー、高タンパク弁当、プロテインスイーツが日常食に。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 4,
+      "keywords": ["プロテイン", "筋トレ", "高タンパク"],
+      "source": "SHIBUYA109 lab."
+    },
+    {
+      "rank": 3,
+      "name": "クラフトビール / ノンアルコール",
+      "description": "こだわりのクラフトビールと、あえて飲まないノンアルコールの二極化。ソバーキュリアス（あえてシラフ）も浸透。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 3,
+      "keywords": ["クラフトビール", "ノンアル", "ソバーキュリアス"],
+      "source": "SHIBUYA109 lab."
+    }
+  ]
+}

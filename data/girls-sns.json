@@ -1,0 +1,45 @@
+{
+  "category": "sns",
+  "categoryLabel": "SNS・アプリ",
+  "gender": "girls",
+  "lastUpdated": "2026-03-12",
+  "source": "SHIBUYA109 lab. / ガイアックス",
+  "items": [
+    {
+      "rank": 1,
+      "name": "TikTok",
+      "description": "10代〜20代の情報収集・エンタメの中心。ショート動画でトレンドが生まれ拡散するメインプラットフォーム。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 5,
+      "keywords": ["ショート動画", "トレンド発信", "エンタメ"],
+      "source": "ガイアックス"
+    },
+    {
+      "rank": 2,
+      "name": "Instagram（リール中心）",
+      "description": "20代女子のメインSNS。リール動画の比重が増加し、ストーリーズでのクローズドなコミュニケーションも活発。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 5,
+      "keywords": ["リール", "ストーリーズ", "映え"],
+      "source": "SHIBUYA109 lab."
+    },
+    {
+      "rank": 3,
+      "name": "BeReal / クローズドSNS",
+      "description": "加工なし・リアルタイム共有のBeRealが定着。不特定多数ではなく親しい友人とだけ繋がるクローズドSNS志向が加速。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 4,
+      "keywords": ["BeReal", "クローズド", "リアル", "加工なし"],
+      "source": "SHIBUYA109 lab."
+    },
+    {
+      "rank": 4,
+      "name": "Lemon8",
+      "description": "TikTok運営のライフスタイル共有アプリ。美容・ファッション・グルメのレビューが充実し、20代女子の新たな情報源に。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 3,
+      "keywords": ["ライフスタイル", "レビュー", "TikTok系"],
+      "source": "ガイアックス"
+    }
+  ]
+}

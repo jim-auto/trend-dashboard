@@ -1,0 +1,54 @@
+{
+  "category": "gourmet",
+  "categoryLabel": "グルメ",
+  "gender": "girls",
+  "lastUpdated": "2026-03-12",
+  "source": "SHIBUYA109 lab. / Trepo / CanCam",
+  "items": [
+    {
+      "rank": 1,
+      "name": "ヨアジョン（韓国料理）",
+      "description": "韓国の朝食スタイル。カスタムできるメニュー構成が麻辣湯に続く人気を集めると予測。見た目の映えも強み。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 5,
+      "keywords": ["韓国料理", "朝食", "カスタム", "映え"],
+      "source": "SHIBUYA109 lab. トレンド予測2026"
+    },
+    {
+      "rank": 2,
+      "name": "麻辣湯（マーラータン）",
+      "description": "2025年に大ブレイクし、2026年も継続人気。専門店が全国に急増中。辛さ・具材を自分好みにカスタムできるのが魅力。",
+      "ageGroup": ["10代", "20代前半", "20代後半"],
+      "popularity": 5,
+      "keywords": ["麻辣湯", "中華", "カスタム", "辛い"],
+      "source": "WE LABO 2025年間ランキング"
+    },
+    {
+      "rank": 3,
+      "name": "もっちゅりん（ミスド）",
+      "description": "ミスタードーナツの新商品。もちもち食感が話題になり、複数の界隈でランクインする人気ぶり。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 4,
+      "keywords": ["ミスド", "もちもち", "スイーツ"],
+      "source": "WE LABO"
+    },
+    {
+      "rank": 4,
+      "name": "漢方・薬膳フード",
+      "description": "サプリや薬に頼らず体質を整える食文化への関心が高まる。薬膳カフェや漢方ドリンクが20代女子に浸透中。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 4,
+      "keywords": ["漢方", "薬膳", "ヘルシー", "体質改善"],
+      "source": "SHIBUYA109 lab."
+    },
+    {
+      "rank": 5,
+      "name": "カヌレ・焼き菓子系",
+      "description": "カヌレブームが継続。個人パティシエのこだわり焼き菓子店がSNSで話題になり、手土産としても定番化。",
+      "ageGroup": ["20代前半"],
+      "popularity": 3,
+      "keywords": ["カヌレ", "焼き菓子", "手土産"],
+      "source": "Trepo"
+    }
+  ]
+}

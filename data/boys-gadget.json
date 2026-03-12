@@ -1,0 +1,27 @@
+{
+  "category": "gadget",
+  "categoryLabel": "ガジェット・テック",
+  "gender": "boys",
+  "lastUpdated": "2026-03-12",
+  "source": "Business Insider / @DIME",
+  "items": [
+    {
+      "rank": 1,
+      "name": "AIデバイス / ウェアラブル",
+      "description": "AI搭載のスマートグラスやウェアラブルデバイスが注目。Meta Ray-BanやApple Vision Proの流れで、日常使いできるAIデバイスへの期待が高い。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 4,
+      "keywords": ["AI", "ウェアラブル", "スマートグラス"],
+      "source": "Business Insider"
+    },
+    {
+      "rank": 2,
+      "name": "ワイヤレスイヤホン（高音質志向）",
+      "description": "AirPods Proに加え、SONYやBoseなど高音質ワイヤレスイヤホンへの投資が増加。ノイズキャンセリング性能が購入の決め手に。",
+      "ageGroup": ["10代", "20代前半", "20代後半"],
+      "popularity": 4,
+      "keywords": ["ワイヤレスイヤホン", "高音質", "ノイキャン"],
+      "source": "@DIME"
+    }
+  ]
+}
