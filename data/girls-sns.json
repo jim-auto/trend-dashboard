@@ -3,7 +3,7 @@
   "categoryLabel": "SNS・アプリ",
   "gender": "girls",
   "lastUpdated": "2026-03-12",
-  "source": "SHIBUYA109 lab. / ガイアックス",
+  "source": "SHIBUYA109 lab. / ガイアックス / WE LABO",
   "items": [
     {
       "rank": 1,
@@ -34,11 +34,29 @@
     },
     {
       "rank": 4,
+      "name": "BeRealノート",
+      "description": "BeRealの新機能「ノート」が話題。テキストベースで気軽に近況を共有でき、アテンション・デトックス志向にフィット。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 4,
+      "keywords": ["BeReal", "ノート", "テキストSNS"],
+      "source": "SHIBUYA109 lab. トレンド予測2026"
+    },
+    {
+      "rank": 5,
       "name": "Lemon8",
       "description": "TikTok運営のライフスタイル共有アプリ。美容・ファッション・グルメのレビューが充実し、20代女子の新たな情報源に。",
       "ageGroup": ["20代前半", "20代後半"],
       "popularity": 3,
       "keywords": ["ライフスタイル", "レビュー", "TikTok系"],
+      "source": "ガイアックス"
+    },
+    {
+      "rank": 6,
+      "name": "Pinterest",
+      "description": "ファッション・インテリア・ネイルの「ビジュアル検索エンジン」として再評価。ムードボード作成が10代〜20代に浸透。",
+      "ageGroup": ["10代", "20代前半", "20代後半"],
+      "popularity": 3,
+      "keywords": ["ビジュアル検索", "ムードボード", "インスピレーション"],
       "source": "ガイアックス"
     }
   ]

@@ -3,7 +3,7 @@
   "categoryLabel": "音楽",
   "gender": "boys",
   "lastUpdated": "2026-03-12",
-  "source": "WE LABO / CanCam",
+  "source": "WE LABO / CanCam / RAG Music",
   "items": [
     {
       "rank": 1,
@@ -16,6 +16,15 @@
     },
     {
       "rank": 2,
+      "name": "Mrs. GREEN APPLE",
+      "description": "10代〜20代男子にも圧倒的人気のロックバンド。ライブの一体感とキャッチーな楽曲で男女問わずファン層が拡大。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 5,
+      "keywords": ["ミセス", "ロックバンド", "ライブ"],
+      "source": "RAG Music"
+    },
+    {
+      "rank": 3,
       "name": "ヒップホップ / ラップシーン",
       "description": "日本のヒップホップシーンが活況。フリースタイルバトル番組やSNS発のラッパーが10代〜20代男子に人気。",
       "ageGroup": ["10代", "20代前半"],
@@ -24,13 +33,31 @@
       "source": "WE LABO"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "アニメ・ゲーム系サウンドトラック",
       "description": "アニメやゲームのOST・主題歌がストリーミングチャートを席巻。推し作品の音楽を日常的に聴くスタイルが定着。",
       "ageGroup": ["10代", "20代前半"],
       "popularity": 4,
       "keywords": ["アニソン", "ゲーム音楽", "OST"],
       "source": "WE LABO"
+    },
+    {
+      "rank": 5,
+      "name": "YOASOBI",
+      "description": "男子からの支持も厚い。アニメタイアップ楽曲の連続ヒットで、カラオケでの定番にも。",
+      "ageGroup": ["10代", "20代前半", "20代後半"],
+      "popularity": 4,
+      "keywords": ["YOASOBI", "アニメタイアップ", "カラオケ"],
+      "source": "RAG Music"
+    },
+    {
+      "rank": 6,
+      "name": "&TEAM / K-POPボーイズグループ",
+      "description": "HYBE所属の&TEAMをはじめ、K-POPボーイズグループのパフォーマンスに影響を受ける10代男子も増加。ダンスカバー動画が人気。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 3,
+      "keywords": ["&TEAM", "K-POP", "ダンス"],
+      "source": "RAG Music"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "categoryLabel": "推し活・アイドル",
   "gender": "girls",
   "lastUpdated": "2026-03-12",
-  "source": "SHIBUYA109 lab. / WE LABO",
+  "source": "SHIBUYA109 lab. / WE LABO / Trepo",
   "items": [
     {
       "rank": 1,
@@ -16,11 +16,47 @@
     },
     {
       "rank": 2,
+      "name": "きんりのカップル",
+      "description": "内田金吾×多田梨音。ABEMA「今日好き 夏休み編2025」で成立したカップルが2026年上半期のインフルエンサー部門1位に。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 5,
+      "keywords": ["今日好き", "ABEMA", "カップル", "恋リア"],
+      "source": "Trepo 2026上半期"
+    },
+    {
+      "rank": 3,
+      "name": "オリジナルドールワッペン",
+      "description": "アクスタやぬいぐるみに次ぐ新しい携帯推し活グッズ。推しの顔をワッペンにしてバッグや服に付けるスタイルがZ世代に浸透。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 4,
+      "keywords": ["ワッペン", "推し活グッズ", "ハンドメイド"],
+      "source": "WE LABO"
+    },
+    {
+      "rank": 4,
+      "name": "お薬手帳デコ（#お薬手帳界隈）",
+      "description": "お薬手帳ケースに推しの写真やアクスタを入れてデコる新たな推し活。Instagramのハッシュタグ投稿が1,000件突破。",
+      "ageGroup": ["10代"],
+      "popularity": 4,
+      "keywords": ["お薬手帳", "デコ", "Instagram", "推し活"],
+      "source": "WE LABO"
+    },
+    {
+      "rank": 5,
       "name": "家族・カップル系インフルエンサー",
       "description": "SHIBUYA109 lab.の「ヒト」部門では親密さが共通特徴。家族やカップルの日常を発信するインフルエンサーへの支持が拡大。",
       "ageGroup": ["20代前半", "20代後半"],
       "popularity": 4,
       "keywords": ["インフルエンサー", "家族", "カップル", "日常系"],
+      "source": "SHIBUYA109 lab."
+    },
+    {
+      "rank": 6,
+      "name": "平成キャラクターリバイバル",
+      "description": "たれぱんだ、こげぱん等の平成レトロキャラが再ブーム。白基調でどんなファッションにも合うキャラクターが特に人気。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 3,
+      "keywords": ["平成レトロ", "キャラクター", "たれぱんだ"],
       "source": "SHIBUYA109 lab."
     }
   ]

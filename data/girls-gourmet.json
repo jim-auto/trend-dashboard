@@ -3,7 +3,7 @@
   "categoryLabel": "グルメ",
   "gender": "girls",
   "lastUpdated": "2026-03-12",
-  "source": "SHIBUYA109 lab. / Trepo / CanCam",
+  "source": "SHIBUYA109 lab. / Trepo / CanCam / 日経クロストレンド",
   "items": [
     {
       "rank": 1,
@@ -25,6 +25,24 @@
     },
     {
       "rank": 3,
+      "name": "デカドリンク",
+      "description": "ペットボトルより大容量のドリンクが2026年のトレンド。タピオカの次の「持ち歩きドリンク」として注目。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 4,
+      "keywords": ["大容量", "ドリンク", "持ち歩き"],
+      "source": "日経クロストレンド"
+    },
+    {
+      "rank": 4,
+      "name": "サゴ（sago）ボウルスイーツ",
+      "description": "タピオカに似たもちもち食感のサゴを使ったボウルスイーツ。カスタムトッピングで自分だけの一杯が作れる。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 4,
+      "keywords": ["サゴ", "もちもち", "カスタム", "スイーツ"],
+      "source": "日経クロストレンド"
+    },
+    {
+      "rank": 5,
       "name": "もっちゅりん（ミスド）",
       "description": "ミスタードーナツの新商品。もちもち食感が話題になり、複数の界隈でランクインする人気ぶり。",
       "ageGroup": ["10代", "20代前半"],
@@ -33,22 +51,31 @@
       "source": "WE LABO"
     },
     {
-      "rank": 4,
+      "rank": 6,
+      "name": "せいろ蒸し / タコス",
+      "description": "自分好みの食材を選んでカスタムできる「うま確フード」の代表格。せいろ蒸しはヘルシー志向、タコスは映え＋おいしさで人気。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 3,
+      "keywords": ["カスタム", "ヘルシー", "うま確フード"],
+      "source": "SHIBUYA109 lab."
+    },
+    {
+      "rank": 7,
       "name": "漢方・薬膳フード",
       "description": "サプリや薬に頼らず体質を整える食文化への関心が高まる。薬膳カフェや漢方ドリンクが20代女子に浸透中。",
       "ageGroup": ["20代前半", "20代後半"],
-      "popularity": 4,
+      "popularity": 3,
       "keywords": ["漢方", "薬膳", "ヘルシー", "体質改善"],
       "source": "SHIBUYA109 lab."
     },
     {
-      "rank": 5,
-      "name": "カヌレ・焼き菓子系",
-      "description": "カヌレブームが継続。個人パティシエのこだわり焼き菓子店がSNSで話題になり、手土産としても定番化。",
-      "ageGroup": ["20代前半"],
+      "rank": 8,
+      "name": "マカロンシリアル",
+      "description": "ミニサイズのマカロンをシリアルのようにボウルで食べるスタイル。見た目のかわいさとサクサク食感でSNS映え抜群。",
+      "ageGroup": ["10代", "20代前半"],
       "popularity": 3,
-      "keywords": ["カヌレ", "焼き菓子", "手土産"],
-      "source": "Trepo"
+      "keywords": ["マカロン", "映え", "スイーツ"],
+      "source": "日経クロストレンド"
     }
   ]
 }

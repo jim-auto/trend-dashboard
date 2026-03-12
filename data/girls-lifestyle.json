@@ -3,7 +3,7 @@
   "categoryLabel": "ライフスタイル",
   "gender": "girls",
   "lastUpdated": "2026-03-12",
-  "source": "SHIBUYA109 lab. / CanCam",
+  "source": "SHIBUYA109 lab. / CanCam / 日経クロストレンド",
   "items": [
     {
       "rank": 1,
@@ -16,15 +16,24 @@
     },
     {
       "rank": 2,
-      "name": "オフライン体験",
-      "description": "スマホから離れて楽しむリアル体験への回帰。ワークショップ、陶芸、キャンプなど五感を使う体験が人気上昇。",
+      "name": "スマホなし旅行",
+      "description": "旅行中にあえてスマホを使わず、リアルな体験に集中するスタイル。アテンション・デトックスの実践形として2026年注目。",
       "ageGroup": ["20代前半", "20代後半"],
       "popularity": 5,
-      "keywords": ["リアル体験", "ワークショップ", "五感"],
-      "source": "SHIBUYA109 lab."
+      "keywords": ["デジタルデトックス", "旅行", "オフライン体験"],
+      "source": "SHIBUYA109 lab. トレンド予測2026"
     },
     {
       "rank": 3,
+      "name": "オフライン体験（クラフト系）",
+      "description": "陶芸、キャンドル作り、アクセサリー制作など五感を使うワークショップが人気上昇。少人数でスマホから離れて楽しむ。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 4,
+      "keywords": ["ワークショップ", "五感", "ハンドメイド"],
+      "source": "SHIBUYA109 lab."
+    },
+    {
+      "rank": 4,
       "name": "平成レトロ体験",
       "description": "平成時代のカルチャー（プリクラ、ガラケー、MD等）をZ世代が「新鮮」と感じてブームに。平成レトロカフェやイベントが話題。",
       "ageGroup": ["10代", "20代前半"],
@@ -33,7 +42,7 @@
       "source": "CanCam"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "AI活用の日常浸透",
       "description": "ChatGPTやAI画像生成を日常的に使うZ世代が増加。勉強、副業、コンテンツ制作にAIを活用するのが当たり前に。",
       "ageGroup": ["10代", "20代前半", "20代後半"],
@@ -42,13 +51,22 @@
       "source": "SHIBUYA109 lab."
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "推し活グッズ自作",
       "description": "トレカ、アクスタ、痛バッグなど推し活グッズをDIYで自作するのがトレンド。100均素材やアプリを駆使。",
       "ageGroup": ["10代"],
       "popularity": 4,
       "keywords": ["推し活", "DIY", "トレカ", "ハンドメイド"],
       "source": "WE LABO"
+    },
+    {
+      "rank": 7,
+      "name": "タイパ重視消費",
+      "description": "タイムパフォーマンスを重視する消費行動。倍速視聴、ネタバレOK、「おいしいことが確定している」うま確フードなど時間効率を最優先。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 3,
+      "keywords": ["タイパ", "効率重視", "倍速"],
+      "source": "SHIBUYA109 lab."
     }
   ]
 }

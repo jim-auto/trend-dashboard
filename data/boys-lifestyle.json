@@ -3,7 +3,7 @@
   "categoryLabel": "ライフスタイル",
   "gender": "boys",
   "lastUpdated": "2026-03-12",
-  "source": "SHIBUYA109 lab. / Business Insider",
+  "source": "SHIBUYA109 lab. / Business Insider / CanCam",
   "items": [
     {
       "rank": 1,
@@ -31,6 +31,33 @@
       "popularity": 4,
       "keywords": ["AI", "プログラミング", "副業", "スキルアップ"],
       "source": "Business Insider"
+    },
+    {
+      "rank": 4,
+      "name": "キャンプ・アウトドア",
+      "description": "ソロキャンプからグルキャンまで。デジタルデトックスの手段としてもアウトドアが20代男子に人気。ギア選びも趣味化。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 4,
+      "keywords": ["キャンプ", "アウトドア", "ソロキャン"],
+      "source": "CanCam"
+    },
+    {
+      "rank": 5,
+      "name": "投資・資産形成",
+      "description": "新NISAをきっかけに20代から投資を始める男子が急増。金融リテラシー向上への意識が高まっている。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 3,
+      "keywords": ["NISA", "投資", "資産形成"],
+      "source": "Business Insider"
+    },
+    {
+      "rank": 6,
+      "name": "ゲーミング / eスポーツ",
+      "description": "Valorant、Apex等のFPSタイトルを中心にeスポーツ観戦・プレイが10代男子の日常。ストリーマー文化も根強い。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 3,
+      "keywords": ["eスポーツ", "ゲーミング", "ストリーマー"],
+      "source": "WE LABO"
     }
   ]
 }

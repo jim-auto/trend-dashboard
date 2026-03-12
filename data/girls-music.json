@@ -3,7 +3,7 @@
   "categoryLabel": "音楽・アーティスト",
   "gender": "girls",
   "lastUpdated": "2026-03-12",
-  "source": "Trepo / CanCam / WE LABO",
+  "source": "Trepo / CanCam / WE LABO / RAG Music",
   "items": [
     {
       "rank": 1,
@@ -16,21 +16,57 @@
     },
     {
       "rank": 2,
-      "name": "チェンソーマン関連楽曲",
-      "description": "レゼ篇の興行収入90億円突破に伴い、主題歌・挿入歌が軒並みチャートイン。アニメ×音楽の相乗効果が最大化。",
+      "name": "Mrs. GREEN APPLE",
+      "description": "中高生アンケートで圧倒的1位。心に響く歌詞と耳に残るメロディで10代女子のカラオケ定番に。ライブチケットは即完売が続く。",
       "ageGroup": ["10代", "20代前半"],
       "popularity": 5,
-      "keywords": ["チェンソーマン", "アニメソング", "レゼ篇"],
-      "source": "WE LABO"
+      "keywords": ["ミセス", "ロックバンド", "カラオケ"],
+      "source": "高校生新聞 / RAG Music"
     },
     {
       "rank": 3,
+      "name": "YOASOBI",
+      "description": "「小説を音楽にする」コンセプトで国内外で活躍。アニメタイアップ楽曲が次々ヒットし、Z世代の代表的アーティストに。",
+      "ageGroup": ["10代", "20代前半", "20代後半"],
+      "popularity": 5,
+      "keywords": ["YOASOBI", "アニメタイアップ", "小説×音楽"],
+      "source": "RAG Music"
+    },
+    {
+      "rank": 4,
       "name": "K-POP 4th/5th世代",
       "description": "ILLIT、BABYMONSTER、TWS、RIIZEなど新世代K-POPグループが続々デビュー。SNSでのファンダム活動も活発。",
       "ageGroup": ["10代", "20代前半"],
       "popularity": 4,
       "keywords": ["K-POP", "アイドル", "ファンダム"],
       "source": "Trepo"
+    },
+    {
+      "rank": 5,
+      "name": "チェンソーマン関連楽曲",
+      "description": "レゼ篇の興行収入90億円突破に伴い、主題歌・挿入歌が軒並みチャートイン。アニメ×音楽の相乗効果が最大化。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 4,
+      "keywords": ["チェンソーマン", "アニメソング", "レゼ篇"],
+      "source": "WE LABO"
+    },
+    {
+      "rank": 6,
+      "name": "&TEAM",
+      "description": "HYBE LABELS JAPAN所属の9人組グローバルグループ。10代女子を中心にファンダムが急拡大中。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 4,
+      "keywords": ["&TEAM", "HYBE", "J-POP×K-POP"],
+      "source": "RAG Music"
+    },
+    {
+      "rank": 7,
+      "name": "yama",
+      "description": "中性的かつソウルフルな歌声がSNSを中心に話題。TikTokでの楽曲使用から火がつき、20代女子のプレイリスト常連に。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 3,
+      "keywords": ["yama", "SNS発", "シンガーソングライター"],
+      "source": "RAG Music"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "categoryLabel": "グルメ",
   "gender": "boys",
   "lastUpdated": "2026-03-12",
-  "source": "WE LABO / SHIBUYA109 lab.",
+  "source": "WE LABO / SHIBUYA109 lab. / 日経クロストレンド",
   "items": [
     {
       "rank": 1,
@@ -25,12 +25,39 @@
     },
     {
       "rank": 3,
+      "name": "デカドリンク",
+      "description": "大容量ドリンクが男子にも人気。コスパの良さとSNS映えで、タピオカの後継ポジションに。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 4,
+      "keywords": ["大容量", "ドリンク", "コスパ"],
+      "source": "日経クロストレンド"
+    },
+    {
+      "rank": 4,
       "name": "クラフトビール / ノンアルコール",
       "description": "こだわりのクラフトビールと、あえて飲まないノンアルコールの二極化。ソバーキュリアス（あえてシラフ）も浸透。",
       "ageGroup": ["20代前半", "20代後半"],
       "popularity": 3,
       "keywords": ["クラフトビール", "ノンアル", "ソバーキュリアス"],
       "source": "SHIBUYA109 lab."
+    },
+    {
+      "rank": 5,
+      "name": "二郎系 / 背脂系ラーメン",
+      "description": "筋トレ後のご褒美飯として二郎系ラーメンが10代〜20代男子の定番。SNSでの大食いチャレンジも人気。",
+      "ageGroup": ["10代", "20代前半"],
+      "popularity": 3,
+      "keywords": ["ラーメン", "二郎系", "がっつり"],
+      "source": "WE LABO"
+    },
+    {
+      "rank": 6,
+      "name": "スパイスカレー",
+      "description": "自分でスパイスから作るカレーが趣味として定着。間借りカレー店やポップアップも20代男子に人気。",
+      "ageGroup": ["20代前半", "20代後半"],
+      "popularity": 3,
+      "keywords": ["スパイスカレー", "自炊", "間借り"],
+      "source": "WE LABO"
     }
   ]
 }
