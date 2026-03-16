@@ -4,90 +4,92 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>トレンドまとめ 2026</title>
-  <meta name="description" content="Z世代の最新トレンドをファッション・美容・グルメ・音楽・SNS・ライフスタイルまで網羅的にまとめたダッシュボード">
+  <meta name="description" content="Z世代の最新トレンドをファッション・美容・グルメ・音楽・SNS・ライフスタイルまで網羅的にまとめたフィードリーダー">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1><span class="accent-highlight">トレンドまとめ</span> 2026</h1>
-    <p class="header-sub">Z世代のリアルなトレンドを一目で｜2026年3月調査</p>
-    <nav class="main-nav">
-      <a href="pages/girls.html" class="nav-girls">&#x1f469; 女子トレンド</a>
-      <a href="pages/boys.html" class="nav-boys">&#x1f468; 男子トレンド</a>
-    </nav>
+  <!-- Mobile header -->
+  <header class="mobile-header">
+    <button id="sidebar-toggle" class="sidebar-toggle" aria-label="メニュー">
+      <span></span><span></span><span></span>
+    </button>
+    <h1 class="mobile-title">トレンドまとめ 2026</h1>
   </header>
 
-  <main>
-    <!-- 2026 Keywords -->
-    <section>
-      <h2>2026年キーワード</h2>
-      <div class="keyword-grid">
-        <div class="keyword-card">
-          <div class="keyword-label">SHIBUYA109 lab.</div>
-          <div class="keyword-name">アテンション・デトックス</div>
-          <div class="keyword-desc">情報過多・SNS疲れから離れ、オフライン体験へ回帰する動き</div>
+  <div class="app-layout">
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-header">
+        <h1 class="sidebar-logo">トレンドまとめ</h1>
+        <span class="sidebar-year">2026</span>
+      </div>
+      <div class="sidebar-meta">2026年3月調査</div>
+
+      <nav class="sidebar-nav">
+        <button class="nav-item active" data-filter="all">
+          <span class="nav-icon">&#x1f4e1;</span>
+          <span class="nav-label">すべてのフィード</span>
+          <span class="nav-count" id="count-all"></span>
+        </button>
+
+        <div class="nav-group">
+          <div class="nav-group-header" data-group="girls">
+            <span class="nav-icon">&#x1f469;</span>
+            <span class="nav-label">女子トレンド</span>
+            <span class="nav-chevron">&#9662;</span>
+          </div>
+          <div class="nav-group-items" id="nav-girls"></div>
         </div>
-        <div class="keyword-card">
-          <div class="keyword-label">コスメ</div>
-          <div class="keyword-name">バナナコスメ</div>
-          <div class="keyword-desc">黄味カラーで赤みを自然補正。透明感の新定番</div>
+
+        <div class="nav-group">
+          <div class="nav-group-header" data-group="boys">
+            <span class="nav-icon">&#x1f468;</span>
+            <span class="nav-label">男子トレンド</span>
+            <span class="nav-chevron">&#9662;</span>
+          </div>
+          <div class="nav-group-items" id="nav-boys"></div>
         </div>
-        <div class="keyword-card">
-          <div class="keyword-label">グルメ</div>
-          <div class="keyword-name">ヨアジョン</div>
-          <div class="keyword-desc">韓国朝食スタイル。麻辣湯に続くカスタム系フード</div>
-        </div>
-        <div class="keyword-card">
-          <div class="keyword-label">メンズヘア</div>
-          <div class="keyword-name">曖昧な毛流れ</div>
-          <div class="keyword-desc">作り込みすぎないナチュラルなツヤ感スタイリング</div>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="sidebar-sources">
+          データソース: SHIBUYA109 lab. / Trepo / @cosme / CanCam / fasme / WE LABO / VOCE / OTOKOMAE / ホットペッパービューティー
         </div>
       </div>
-    </section>
+    </aside>
 
-    <!-- Pickup: Girls -->
-    <section>
-      <h2><span class="accent-girls">&#x1f469; 女子</span> ピックアップトレンド</h2>
-      <div class="pickup-grid" id="girls-pickup"></div>
-    </section>
+    <!-- Overlay for mobile sidebar -->
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
 
-    <!-- Pickup: Boys -->
-    <section>
-      <h2><span class="accent-boys">&#x1f468; 男子</span> ピックアップトレンド</h2>
-      <div class="pickup-grid" id="boys-pickup"></div>
-    </section>
-
-    <!-- Quick Links -->
-    <section>
-      <h2>ジャンル別クイックリンク</h2>
-      <h3 style="font-size:0.95rem; color:#f778ba; margin-bottom:0.5rem;">&#x1f469; 女子</h3>
-      <div class="quick-links" style="margin-bottom:1rem;">
-        <a class="quick-link" href="pages/girls.html#fashion">ファッション</a>
-        <a class="quick-link" href="pages/girls.html#beauty">美容・コスメ</a>
-        <a class="quick-link" href="pages/girls.html#gourmet">グルメ</a>
-        <a class="quick-link" href="pages/girls.html#music">音楽</a>
-        <a class="quick-link" href="pages/girls.html#sns">SNS・アプリ</a>
-        <a class="quick-link" href="pages/girls.html#lifestyle">ライフスタイル</a>
-        <a class="quick-link" href="pages/girls.html#idol">推し活</a>
+    <!-- Main feed -->
+    <main class="feed-main">
+      <div class="feed-toolbar">
+        <h2 class="feed-title" id="feed-title">すべてのフィード</h2>
+        <div class="feed-actions">
+          <div class="search-box">
+            <span class="search-icon">&#x1f50d;</span>
+            <input type="text" id="search-input" placeholder="検索..." class="search-input">
+          </div>
+          <button id="view-toggle" class="view-toggle" title="表示切替">
+            <span class="view-icon" id="view-icon">&#9776;</span>
+          </button>
+        </div>
       </div>
-      <h3 style="font-size:0.95rem; color:#58a6ff; margin-bottom:0.5rem;">&#x1f468; 男子</h3>
-      <div class="quick-links">
-        <a class="quick-link" href="pages/boys.html#fashion">ファッション</a>
-        <a class="quick-link" href="pages/boys.html#beauty">美容・ヘア</a>
-        <a class="quick-link" href="pages/boys.html#gourmet">グルメ</a>
-        <a class="quick-link" href="pages/boys.html#music">音楽</a>
-        <a class="quick-link" href="pages/boys.html#lifestyle">ライフスタイル</a>
-        <a class="quick-link" href="pages/boys.html#gadget">ガジェット</a>
-      </div>
-    </section>
-  </main>
 
-  <footer>
-    <p>トレンドまとめ 2026</p>
-    <div class="sources">
-      データソース: SHIBUYA109 lab. / Trepo / @cosme / CanCam / fasme / WE LABO / VOCE / OTOKOMAE / ホットペッパービューティー
-    </div>
-  </footer>
+      <!-- Keyword filter bar -->
+      <div id="keyword-bar" class="keyword-bar" style="display:none;">
+        <span class="keyword-bar-label">キーワード絞り込み:</span>
+        <span id="keyword-label" class="keyword-bar-value"></span>
+        <button id="keyword-clear" class="keyword-bar-clear">&#x2715; 解除</button>
+      </div>
+
+      <div id="feed-list" class="feed-list"></div>
+
+      <div id="feed-empty" class="feed-empty" style="display:none;">
+        該当するトレンドがありません
+      </div>
+    </main>
+  </div>
 
   <script src="app.js"></script>
 </body>
